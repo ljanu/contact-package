@@ -9,5 +9,13 @@
         "psr-4": {
             "Tudy\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tudy\\Contact\\ContactServiceProvider"
+            ],
+
+        }
     }
 }
