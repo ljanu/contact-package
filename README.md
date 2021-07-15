@@ -12,4 +12,4 @@ Tudy\Contact\ContactServiceProvider::class
 composer update
 
 ### odinstalace
-composer remove tudy/contact
+composer remove tudy/contact 
