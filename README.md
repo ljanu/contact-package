@@ -85,6 +85,27 @@ Balíšek je funkční.
 Pokud neproběhla automatická registrace služby baličku v je nutné doplnit v  `config/app.php`  
 v sekci `providers` službu `Tudy\Contact\ContactServiceProvider::class`
 
+---
+
+### Použití poštovního serveru MailTrap
+
+server přijíma poštu pro zkušební účely
+1. Přihlášení pomocí github
+2. [Základní ifno o nastavení](https://mailtrap.io/inboxes/1405470/messages)
+3. konfigurace v laravelu soubor `.env` 
+```shell
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=5bc1a1a866b04f
+MAIL_PASSWORD=01f3a439b5f8e1
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=info@gametall.cz
+MAIL_FROM_NAME="${APP_NAME}"
+```
+
+
+---
 
 ### Další příkazy composer a artisan
 aktualizace
