@@ -17,3 +17,10 @@ composer update
 ```shell
 composer remove tudy/contact 
 ```
+### Veřejné nastavení
+```shell
+php artisan vendor:publish
+```
+pokus
+
+
