@@ -3,7 +3,7 @@
     "description": "This will send email to admin and save contact query in database",
     "type": "library",
     "license": "mit",
-    "minimum-stability": "dev",
+    "minimum-stability": "2.0.0",
     "require": {},
     "autoload": {
         "psr-4": {
