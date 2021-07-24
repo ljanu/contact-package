@@ -74,6 +74,7 @@ Zložit adresář **src** pro umístění kodu
 ```shell
 composer dump-autoload
 ```
+NEZAPOMENOUT zaregostrovat službu v  `config/app.php` !!!
 
 PO TĚCHTO KROCÍCH JSOU FUNKČNÍ ZAREGOSTROVANÉ ROUTY
 
